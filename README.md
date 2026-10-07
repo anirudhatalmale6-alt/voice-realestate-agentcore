@@ -1,5 +1,32 @@
 # Voice real estate agent, multi-tenant, on AWS Bedrock AgentCore
 
+## Start here
+
+**Windows: download this repo, then double click `run_demo.bat`.** That is the
+whole thing. No AWS account, no API key, no internet needed.
+
+Anything else:
+
+    pip install -r requirements.txt
+    python demo_call.py
+
+You will watch a phone call happen. A caller asks what is under $400,000, the
+agent finds the home, describes it, describes the neighbourhood, books a
+viewing, and hands the call to a person when the caller starts talking about
+price. Then the same call runs again against a second office, which has nothing
+in that price range, so you can see that the two offices cannot see each other's
+listings.
+
+The listings are real Toronto homes, not invented ones.
+
+To check nothing is broken:
+
+    python -m pytest tests -q        # 57 checks, no network
+
+The rest of this page is detail. You do not need it to run the demo.
+
+---
+
 A phone agent that answers calls for a real estate office, talks about the
 homes that office has for sale, describes the neighbourhood, and books
 viewings. Many offices, one build: each office gets its own Canadian phone
@@ -10,10 +37,6 @@ This repository is the part that decides what the caller hears. It runs on your
 Windows machine with no AWS account and no API key, so the conversation logic,
 the property data and the tenant isolation can be tested and changed for free
 before any audio is involved.
-
-    pip install -r requirements.txt
-    python -m pytest tests -q        # 57 checks, no network
-    python demo_call.py              # walk through a call for both offices
 
 ## What is here now
 
