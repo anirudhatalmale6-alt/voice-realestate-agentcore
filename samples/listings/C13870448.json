@@ -1,0 +1,88 @@
+{
+  "listing_id": "C13870448",
+  "source": "remax.ca",
+  "source_url": "https://www.remax.ca/on/toronto-don-valley-village-real-estate/73-houston-crescent-wp_idm73000005-30374064-lst",
+  "captured_at": "2026-10-07T15:53:26+00:00",
+  "status": "active",
+  "price": {
+    "amount": 1129800.0,
+    "currency": "CAD",
+    "period": null
+  },
+  "maintenance_fee": {
+    "amount": null,
+    "currency": "CAD",
+    "period": "month"
+  },
+  "taxes_annual": {
+    "amount": 6683.28,
+    "currency": "CAD",
+    "period": null
+  },
+  "address": {
+    "unit": null,
+    "street": "73 Houston Crescent",
+    "city": "Toronto",
+    "neighbourhood": "Don Valley Village",
+    "province": "ON",
+    "postal_code": "M2J",
+    "country": "Canada"
+  },
+  "facts": {
+    "property_type": "Raised Bungalow",
+    "bedrooms": 4.0,
+    "bedrooms_plus": null,
+    "bathrooms": 2.0,
+    "parking_spaces": 4,
+    "storeys": 1.0,
+    "size_interior_sqft": "1100 sq ft",
+    "year_built": null,
+    "exposure": null,
+    "balcony": null,
+    "heating": "Forced Air, Natural Gas",
+    "cooling": "Central Air",
+    "locker": null,
+    "pets": null
+  },
+  "description": "Move-In Ready Bungalow In A Very High Demand North York Neighbourhood! Thoughtfully Upgraded By The Current Owner: Furnace, AC & Electrical Breaker Panel (2019); Windows, Laminate Flooring on Main floor, Kitchen Countertops & R60 Attic Insulation (2021); Main Floor Freshly Painted With Updated Light Fixtures; Eat-In Kitchen Walks Out To A Patio With Stairs Down To The Interlocked Backyard; Separate Entrance From The Driveway To The Lower Level With A Second Kitchen, Ideal For A Nanny Suite, Extended Family Living Or Income Potential; Steps To Seneca College, Fairview Mall, Subway And Public Transit, Minutes To Hwy 404 & 401. Don't Miss This One! (id:50967)",
+  "features": [
+    "Range Hood",
+    "Washer",
+    "Refrigerator",
+    "Dishwasher",
+    "Range",
+    "Dryer",
+    "Cooktop"
+  ],
+  "neighbourhood": {
+    "name": "Don Valley Village",
+    "summary": "The character of Don Valley Village is exemplified by its slower-paced atmosphere. This neighbourhood features a good amount of greenery as many tree-lined streets are present. There are over 50 green spaces close by for residents to explore, including East Don Parkland and Parkway Forest Park, and they are very well-spread out, making it very easy to access them from most locations within this area. This area is quiet overall, as there tend to be low levels of noise from traffic - although there are still several louder sections, especially closer to Highway 404 Collector or Highway 404.",
+    "walk_score": null,
+    "transit_score": null,
+    "bike_score": null,
+    "demographics": {},
+    "nearby": {}
+  },
+  "stats": {
+    "area_name": null,
+    "median_sale_price": null,
+    "average_sale_price": null,
+    "average_days_on_market": null,
+    "sale_to_list_ratio": null,
+    "active_listings": null,
+    "period": null,
+    "raw": {
+      "listing agent": "Walter Zhan",
+      "updated": "Thursday, August 27, 2026 at 3:55:01 PM",
+      "ownership freehold": "Tax Annual Amount $6,683.28",
+      "$": "%",
+      "$5,129 monthly": "Estimated Payment",
+      "$5,129": "Monthly",
+      "buying": "Assessing Your Home-Buying Wants vs. Needs",
+      "financing": "10 Tips for Getting the Best Mortgage Rate in Canada"
+    }
+  },
+  "brokerage": "REMAX Onestop Team Realty, 4162079977",
+  "media_count": 40,
+  "warnings": []
+}

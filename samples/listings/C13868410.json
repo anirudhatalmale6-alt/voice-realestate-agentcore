@@ -1,0 +1,95 @@
+{
+  "listing_id": "C13868410",
+  "source": "remax.ca",
+  "source_url": "https://www.remax.ca/on/toronto-niagara-real-estate/1503-38-iannuzzi-street-wp_idm73000005-30371547-lst",
+  "captured_at": "2026-10-07T15:53:26+00:00",
+  "status": "active",
+  "price": {
+    "amount": 369900.0,
+    "currency": "CAD",
+    "period": null
+  },
+  "maintenance_fee": {
+    "amount": 328.04,
+    "currency": "CAD",
+    "period": "month"
+  },
+  "taxes_annual": {
+    "amount": 2344.6,
+    "currency": "CAD",
+    "period": null
+  },
+  "address": {
+    "unit": "1503",
+    "street": "38 Iannuzzi Street",
+    "city": "Toronto",
+    "neighbourhood": "Fort York-Liberty Village",
+    "province": "ON",
+    "postal_code": "M5V 0S2",
+    "country": "Canada"
+  },
+  "facts": {
+    "property_type": "Residential",
+    "bedrooms": 0.0,
+    "bedrooms_plus": null,
+    "bathrooms": 1.0,
+    "parking_spaces": 1,
+    "storeys": null,
+    "size_interior_sqft": "0-499 sq ft",
+    "year_built": null,
+    "exposure": "West",
+    "balcony": "Yes",
+    "heating": "Heat Pump, Natural Gas",
+    "cooling": "Central Air",
+    "locker": "Yes",
+    "pets": null
+  },
+  "description": "Sun-Filled Studio Suite At Fortune Condos In Fort York, Featuring A Bright And Efficient Open-Concept Layout With Smooth 9-Ft Ceilings, Floor-To-Ceiling Windows And A Spacious Private Balcony Offering Unobstructed Western Exposure, Scenic Lake Glimpses And Spectacular Evening Sunsets. The Contemporary Kitchen Features Sleek Stone Countertops, Modern Cabinetry And A Full Suite Of Built-In Appliances. A Sophisticated And Functional Home, Move-In Ready And Designed For Effortless Urban Living. Enjoy An Impressive Collection Of Resort-Style Amenities, Including A Rooftop Terrace, Fully Equipped Fitness Centre, Sauna, Theatre Room, Party Room, Games Room, Guest Suites, Outdoor BBQ Courtyard, Bike Storage, Visitor Parking And 24-HourConcierge/Security Services. Ideally Located In Vibrant Fort York, Just Steps From The Waterfront, Parks, Marina And Extensive Waterfront Trails. Walk To Loblaws, LCBO, Restaurants, Cafés And Public Transit, With Liberty Village, The Entertainment And Financial Districts, CN Tower, Rogers Centre And Major Downtown Attractions Just Minutes Away. An Exceptional Opportunity To Enjoy Low-Maintenance Urban Living With Beautiful Western Views And Sunsets In One Of Toronto's Most Desirable Waterfront Communities! One Parking Space And One Locker Included. (id:50967)",
+  "features": [
+    "Washer",
+    "Refrigerator",
+    "Dishwasher",
+    "Range",
+    "Oven",
+    "Dryer",
+    "Microwave",
+    "Party Room",
+    "Recreation Facilities",
+    "Storage - Locker",
+    "Exercise Centre",
+    "Recreation Centre",
+    "Security/concierge"
+  ],
+  "neighbourhood": {
+    "name": "Fort York-Liberty Village",
+    "summary": "Fort York-Liberty Village is a great part of the city for those who enjoy both indoor and outdoor activities. It is very easy to find bustling areas in this neighbourhood. There are many nearby entertainment venues, there are very often crowds of people around, and places to go out at night are well-spread throughout the area. Atlantic Avenue is among the most lively streets in this part of Toronto. Greenery is not very present in this part of the city; however, it is very easy to reach public green spaces in the neighbourhood since there are over 50 of them nearby for residents to explore.",
+    "walk_score": null,
+    "transit_score": null,
+    "bike_score": null,
+    "demographics": {},
+    "nearby": {}
+  },
+  "stats": {
+    "area_name": null,
+    "median_sale_price": null,
+    "average_sale_price": null,
+    "average_days_on_market": null,
+    "sale_to_list_ratio": null,
+    "active_listings": null,
+    "period": null,
+    "raw": {
+      ">": "1503 - 38 IANNUZZI STREET, TORONTO (NIAGARA), ON M5V 0S2",
+      "listing agent": "Sia Mansouri",
+      "updated": "Thursday, August 27, 2026 at 3:55:01 PM",
+      "ownership condo/strata": "Tax Annual Amount $2,344.60",
+      "$": "%",
+      "$1,679 monthly": "Estimated Payment",
+      "$1,679": "Monthly",
+      "buying": "Assessing Your Home-Buying Wants vs. Needs",
+      "financing": "10 Tips for Getting the Best Mortgage Rate in Canada"
+    }
+  },
+  "brokerage": "REMAX Realtron Realty Inc., 4162228600",
+  "media_count": 24,
+  "warnings": []
+}

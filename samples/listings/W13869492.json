@@ -1,0 +1,91 @@
+{
+  "listing_id": "W13869492",
+  "source": "remax.ca",
+  "source_url": "https://www.remax.ca/on/toronto-stonegate-queensway-real-estate/19-ridgegate-crescent-wp_idm73000004-30372919-lst",
+  "captured_at": "2026-10-07T15:53:25+00:00",
+  "status": "active",
+  "price": {
+    "amount": 2689000.0,
+    "currency": "CAD",
+    "period": null
+  },
+  "maintenance_fee": {
+    "amount": null,
+    "currency": "CAD",
+    "period": "month"
+  },
+  "taxes_annual": {
+    "amount": 11555.76,
+    "currency": "CAD",
+    "period": null
+  },
+  "address": {
+    "unit": null,
+    "street": "19 Ridgegate Crescent",
+    "city": "Toronto",
+    "neighbourhood": "Stonegate-Queensway",
+    "province": "ON",
+    "postal_code": "M8Y 2C9",
+    "country": "Canada"
+  },
+  "facts": {
+    "property_type": "Residential",
+    "bedrooms": 5.0,
+    "bedrooms_plus": null,
+    "bathrooms": 4.0,
+    "parking_spaces": 6,
+    "storeys": 2.0,
+    "size_interior_sqft": "2500 sq ft",
+    "year_built": null,
+    "exposure": null,
+    "balcony": null,
+    "heating": "Forced Air, Natural Gas",
+    "cooling": "Central Air",
+    "locker": null,
+    "pets": null
+  },
+  "description": "Welcome to 19 Ridgegate Crescent, an extraordinary ravine-side residence tucked away on a quiet, family-friendly street in the heart of Sunnylea.Set on a premium pie-shaped lot backing directly onto Mimico Creek, this is a rare opportunity to enjoy the tranquility of nature withoutsacrificing urban convenience. From the moment you enter, you'll be captivated by the abundance of natural light pouring through oversizedwindows that frame spectacular views of the surrounding ravine. Thoughtfully designed for both comfortable family living and effortlessentertaining, the principal rooms offer seamless connections to the outdoors and showcase the property's breathtaking setting from nearlyevery vantage point. The spacious main floor features elegant living and dining areas with a walkout to an expansive deck overlooking the lushlandscape beyond. The bright eat-in kitchen is surrounded by windows, creating a warm and inviting space to gather while enjoying picturesqueviews year-round. Upstairs, the generous primary retreat offers a private ensuite and his-and-hers closets, while three additional bedroomsprovide ample space for family and guests. The fully finished lower level extends the living space with a large recreation room, laundry area, and a second walkout leading to a stone patio and beautifully landscaped backyard, creating a seamless indoor-outdoor lifestyle on both levels. Whether you're enjoying your morning coffee on the deck, hosting friends under the canopy of mature trees, or taking in the ever-changing beauty of the ravine, this home offers an unmatched sense of privacy and serenity. Additional features include a new roof, furnace (2024),central air conditioning (2023), HEPA air purification system, two fireplaces, and an in-ground sprinkler system. A truly exceptional property where natural beauty, abundant light, and timeless family living come together in one of Etobicoke's most coveted neighbourhoods. (id:31684)",
+  "features": [
+    "Washer",
+    "Refrigerator",
+    "Dishwasher",
+    "Dryer",
+    "Microwave"
+  ],
+  "neighbourhood": {
+    "name": "Stonegate-Queensway",
+    "summary": "Stonegate-Queensway is a very good neighbourhood to buy a house in for those who prefer a slower-paced ambience. The greenery in this area is quite prominent as there are many tree-lined streets. Green spaces, such as South Humber Park and Tom Riley Park, are very well-distributed and there are over 50 of them nearby for residents to visit, which makes them very easy to access. This area is also very quiet, as noise from streets and other parts of the city is rarely an issue.",
+    "walk_score": null,
+    "transit_score": null,
+    "bike_score": null,
+    "demographics": {},
+    "nearby": {}
+  },
+  "stats": {
+    "area_name": null,
+    "median_sale_price": null,
+    "average_sale_price": null,
+    "average_days_on_market": null,
+    "sale_to_list_ratio": null,
+    "active_listings": null,
+    "period": null,
+    "raw": {
+      "harvey kalles real estate ltd.": "Peter Powers",
+      "interested in this property?": "TOUR WITH A REMAX AGENT Yes, send me more info",
+      "19 ridgegate cres": "$2,689,000",
+      "building and construction": "Construction Materials Brick Foundation Details",
+      "construction materials brick": "Foundation Details",
+      "listing agent": "Peter Powers",
+      "updated": "Thursday, August 27, 2026 at 3:55:06 PM",
+      "ownership freehold": "Tax Annual Amount $11,555.76",
+      "$": "%",
+      "$12,207 monthly": "Estimated Payment",
+      "$12,207": "Monthly",
+      "buying": "Assessing Your Home-Buying Wants vs. Needs",
+      "financing": "10 Tips for Getting the Best Mortgage Rate in Canada"
+    }
+  },
+  "brokerage": "Harvey Kalles Real Estate Ltd., 4164412888",
+  "media_count": 39,
+  "warnings": []
+}

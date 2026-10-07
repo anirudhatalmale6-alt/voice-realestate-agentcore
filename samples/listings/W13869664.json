@@ -1,0 +1,89 @@
+{
+  "listing_id": "W13869664",
+  "source": "remax.ca",
+  "source_url": "https://www.remax.ca/on/toronto-mimico-real-estate/838-250-manitoba-street-wp_idm73000004-30373126-lst",
+  "captured_at": "2026-10-07T15:53:25+00:00",
+  "status": "active",
+  "price": {
+    "amount": 679900.0,
+    "currency": "CAD",
+    "period": null
+  },
+  "maintenance_fee": {
+    "amount": 1095.27,
+    "currency": "CAD",
+    "period": "month"
+  },
+  "taxes_annual": {
+    "amount": 2828.0,
+    "currency": "CAD",
+    "period": null
+  },
+  "address": {
+    "unit": "838",
+    "street": "250 Manitoba Street",
+    "city": "Toronto",
+    "neighbourhood": "Humber Bay Shores",
+    "province": "ON",
+    "postal_code": "M8Y 4G8",
+    "country": "Canada"
+  },
+  "facts": {
+    "property_type": "Loft",
+    "bedrooms": 2.0,
+    "bedrooms_plus": null,
+    "bathrooms": 2.0,
+    "parking_spaces": 2,
+    "storeys": null,
+    "size_interior_sqft": "1000 sq ft",
+    "year_built": null,
+    "exposure": null,
+    "balcony": null,
+    "heating": "Forced Air, Natural Gas",
+    "cooling": "Central Air",
+    "locker": "Yes",
+    "pets": null
+  },
+  "description": "Welcome to this spacious 2-storey loft in the sought-after Mystic Pointe community in Mimico. Offering approximately 1,090 sq. ft. of living space, this bright 1+1 bedroom, 2 bathroom suite features soaring 17 ft ceilings, dramatic floor-to-ceiling windows, a gas fireplace, and an open-concept main floor ideal for everyday living and entertaining. The upper level offers a generous primary bedroom with walk-in closet and a versatile den that can be used as a home office, guest area, or additional living space. Includes two owned underground parking spaces and one owned locker. Conveniently located close to the waterfront, parks, trails, TTC, Mimico GO, shopping, restaurants, and major highways. A unique loft-style residence offering space, character, and excellent access to downtown Toronto. (id:31684)",
+  "features": [
+    "2 parking spaces",
+    "$1,095.27 monthly HOA Fee",
+    "Central Air",
+    "Forced Air, Natural Gas"
+  ],
+  "neighbourhood": {
+    "name": "Humber Bay Shores",
+    "summary": "Humber Bay Shores offers a vast selection of green spaces to enjoy, despite its sometimes busy atmosphere. To be more precise, it is very easy to get to public green spaces in the neighbourhood since there are approximately 20 of them close by for residents to visit. This neighbourhood has many sections that are very calm and quiet; however other spots can be noisy, especially closer to F G Gardiner Expressway or the railway line.",
+    "walk_score": null,
+    "transit_score": null,
+    "bike_score": null,
+    "demographics": {},
+    "nearby": {}
+  },
+  "stats": {
+    "area_name": null,
+    "median_sale_price": null,
+    "average_sale_price": null,
+    "average_days_on_market": null,
+    "sale_to_list_ratio": null,
+    "active_listings": null,
+    "period": null,
+    "raw": {
+      ">": "838 - 250 MANITOBA STREET, TORONTO (MIMICO), ON M8Y 4G8",
+      "real estate advisors inc.": "Richard Chhabra",
+      "interested in this property?": "TOUR WITH A REMAX AGENT Yes, send me more info",
+      "838 - 250 manitoba st": "$679,900",
+      "listing agent": "Richard Chhabra",
+      "updated": "Thursday, August 27, 2026 at 3:55:06 PM",
+      "parking features garage, underground": "Parking Total 2",
+      "$": "%",
+      "$3,087 monthly": "Estimated Payment",
+      "$3,087": "Monthly",
+      "buying": "Assessing Your Home-Buying Wants vs. Needs",
+      "financing": "10 Tips for Getting the Best Mortgage Rate in Canada"
+    }
+  },
+  "brokerage": "Real Estate Advisors Inc., 4166913000",
+  "media_count": 25,
+  "warnings": []
+}

@@ -1,0 +1,40 @@
+{
+  "_comment": [
+    "One row per store agent. This file is the local stand-in for the DynamoDB",
+    "table; the shape is identical, so switching from JsonStore to",
+    "DynamoDbStore does not change anything else.",
+    "Phone numbers here are in the 555-01xx range, which is reserved for",
+    "fiction and will never route to a real person. Replace them with the",
+    "numbers you claim in the Amazon Connect console."
+  ],
+  "tenants": [
+    {
+      "tenant_id": "harbourfront",
+      "display_name": "Harbourfront Realty",
+      "phone_number": "+14165550101",
+      "agent_name": "Alex",
+      "language": "en-CA",
+      "voice_id": "matthew",
+      "business_hours": "9am to 7pm Eastern, seven days a week",
+      "handoff_number": "+14165550199",
+      "disclaimers": [
+        "Say once, if the caller asks about anything financial: I can give you the listed figures, but anything to do with an offer or financing goes to one of our licensed agents."
+      ],
+      "listing_ids": ["C13868410", "W13869664", "C13869600"],
+      "active": true
+    },
+    {
+      "tenant_id": "northyork",
+      "display_name": "North York Home Group",
+      "phone_number": "+14165550102",
+      "agent_name": "Priya",
+      "language": "en-CA",
+      "voice_id": "tiffany",
+      "business_hours": "10am to 6pm Eastern, Monday to Saturday",
+      "handoff_number": "+14165550198",
+      "disclaimers": [],
+      "listing_ids": ["C13870448", "W13869492", "E13870954"],
+      "active": true
+    }
+  ]
+}

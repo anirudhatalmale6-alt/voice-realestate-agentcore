@@ -1,0 +1,84 @@
+{
+  "listing_id": "C13869600",
+  "source": "remax.ca",
+  "source_url": "https://www.remax.ca/on/toronto-mount-pleasant-west-real-estate/3709-2191-yonge-street-wp_idm73000004-30372987-lst",
+  "captured_at": "2026-10-07T15:53:25+00:00",
+  "status": "active",
+  "price": {
+    "amount": 650000.0,
+    "currency": "CAD",
+    "period": null
+  },
+  "maintenance_fee": {
+    "amount": 694.38,
+    "currency": "CAD",
+    "period": "month"
+  },
+  "taxes_annual": {
+    "amount": 3718.0,
+    "currency": "CAD",
+    "period": null
+  },
+  "address": {
+    "unit": "3709",
+    "street": "2191 Yonge Street",
+    "city": "Toronto",
+    "neighbourhood": "Davisville",
+    "province": "ON",
+    "postal_code": "M4S",
+    "country": "Canada"
+  },
+  "facts": {
+    "property_type": "Residential",
+    "bedrooms": 2.0,
+    "bedrooms_plus": null,
+    "bathrooms": 1.0,
+    "parking_spaces": 1,
+    "storeys": null,
+    "size_interior_sqft": "700 sq ft",
+    "year_built": null,
+    "exposure": null,
+    "balcony": "Yes",
+    "heating": "Forced Air, Natural Gas",
+    "cooling": "Central Air",
+    "locker": null,
+    "pets": null
+  },
+  "description": "Fully renovated and thoughtfully upgraded, spacious 1+Den at Yonge & Eglinton offers 734 sq. ft. of refined living space with bright and contemporary features. Perched on the 36th floor of Minto Midtown Quantum 2, Suite 3709 combines elevated design, natural light, and breathtaking scale in the heart of Midtown Toronto. With over $75, 000 invested in renovations, this is a truly turnkey home for buyers seeking quality, style, and comfort without the need for further upgrades. The spacious primary bedroom offers a calming retreat with upgraded custom built-in shelves in the closets and mirrored doors. It directly opens to the versatile den through custom built glass doors, which has blackout blinds. The den is ideal as a work-from home office, reading nook, or flexible living space. Soaring 9-foot ceilings, dramatic floor-to-ceiling windows, and an airy open-concept layout create a home that feels both expansive and intimate, while luxury vinyl flooring adds warmth and continuity throughout. The completely redesigned kitchen features extensive custom cabinetry, quartz waterfall countertop, coordinating backsplash, new stainless steel appliances, and a generous breakfast bar seamlessly connecting to the dining area. Popcorn ceilings have been removed for a clean, modern finish. The fully updated bathroom includes a new vanity, toilet, premium fixtures, and tile flooring, complemented by a new washer and dryer. The suite offers abundant natural light and a private balcony, providing a spectacular city view while you relax. With a Walk Score of 99, TTC Line 1 and Line 5 directly across the street, and Farm Boy, Loblaws, GoodLife Fitness, restaurants, shops, and more just steps away, the location is exceptional. Includes pool, gym, saunas, theatre, party/games rooms, outdoor terrace with BBQs, guest suites, visitor parking and 24-hour concierge. A beautifully renovated, truly turnkey home where the work is already done; simply move in and enjoy. (id:31684)",
+  "features": [
+    "1 parking space",
+    "$694.38 monthly HOA Fee",
+    "Central Air",
+    "Forced Air, Natural Gas"
+  ],
+  "neighbourhood": {
+    "name": "Davisville",
+    "summary": "Davisville is a great part of the city for home buyers who enjoy both indoor and outdoor activities. Finding things to do in this area is easy. Despite the fact that there is a poor selection of entertainment venues, there are very often masses of people around, and finding one of the approximately 10 bars is very easy because they are generally located very close by. The greenery in this area is prominent as the tree canopy coverage for most streets is fairly good. There are over 50 parks nearby for residents to visit, such as Moore Park Ravine and Eglinton Park, and they are very well-situated, making them very easy to reach.",
+    "walk_score": null,
+    "transit_score": null,
+    "bike_score": null,
+    "demographics": {},
+    "nearby": {}
+  },
+  "stats": {
+    "area_name": null,
+    "median_sale_price": null,
+    "average_sale_price": null,
+    "average_days_on_market": null,
+    "sale_to_list_ratio": null,
+    "active_listings": null,
+    "period": null,
+    "raw": {
+      "listing agent": "Megala Mathialagan",
+      "updated": "Thursday, August 27, 2026 at 3:55:06 PM",
+      "$": "%",
+      "$2,951 monthly": "Estimated Payment",
+      "$2,951": "Monthly",
+      "buying": "Assessing Your Home-Buying Wants vs. Needs",
+      "financing": "10 Tips for Getting the Best Mortgage Rate in Canada"
+    }
+  },
+  "brokerage": "REMAX Metropolis Realty, 9058240788",
+  "media_count": 36,
+  "warnings": []
+}

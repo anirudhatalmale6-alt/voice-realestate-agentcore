@@ -1,0 +1,96 @@
+{
+  "listing_id": "E13870954",
+  "source": "remax.ca",
+  "source_url": "https://www.remax.ca/on/toronto-bendale-real-estate/930-125-omni-drive-wp_idm73000004-30374438-lst",
+  "captured_at": "2026-10-07T15:53:26+00:00",
+  "status": "active",
+  "price": {
+    "amount": 478800.0,
+    "currency": "CAD",
+    "period": null
+  },
+  "maintenance_fee": {
+    "amount": 1291.51,
+    "currency": "CAD",
+    "period": "month"
+  },
+  "taxes_annual": {
+    "amount": 2428.0,
+    "currency": "CAD",
+    "period": null
+  },
+  "address": {
+    "unit": "930",
+    "street": "125 Omni Drive",
+    "city": "Toronto",
+    "neighbourhood": "Bendale-Glen Andrew",
+    "province": "ON",
+    "postal_code": "M1P",
+    "country": "Canada"
+  },
+  "facts": {
+    "property_type": "Residential",
+    "bedrooms": 3.0,
+    "bedrooms_plus": null,
+    "bathrooms": 2.0,
+    "parking_spaces": 1,
+    "storeys": null,
+    "size_interior_sqft": "1000 sq ft",
+    "year_built": null,
+    "exposure": null,
+    "balcony": "Yes",
+    "heating": "Forced Air, Natural Gas",
+    "cooling": "Central Air",
+    "locker": "Yes",
+    "pets": null
+  },
+  "description": "Location is everything at Forest Mansion II! Ideally situated at 125 Omni Drive in Scarborough, this spacious 2+1 bedroom, two-bathroom condo offers the perfect blend of space, convenience and city living. Step inside Unit 930 and you'll immediately appreciate the generous living space, filled with natural light from large windows and showcasing spectacular city-centre views from every room. The spacious kitchen features a convenient eat-in area and a walkout to the balcony, creating the perfect spot to enjoy your morning coffee or take in the views. The primary bedroom offers two large closets and a private ensuite bathroom with both a tub and shower, while the versatile den can easily function as a third bedroom, home office or additional living space. Freshly painted throughout with updated light fixtures and convenient ensuite laundry, this home is move-in ready and waiting for you to make it your own. Forest Mansion II offers an impressive array of amenities designed to make everyday living easy and enjoyable, including a secure gatehouse, underground resident parking, ample complimentary visitor parking, guest suites, party room, indoor pool, sauna and theatre room. Everything you need for comfortable condo living is right here. Located directly across from Scarborough Town Centre, you'll have an incredible selection of shopping, restaurants, entertainment and everyday conveniences right at your doorstep. The University of Toronto Scarborough Campus and Centennial College are just a short drive or easy transit ride away, while the future Scarborough subway extension will bring even greater transit convenience to the area. Whether you're a first-time buyer entering the market, a student looking for convenience and accessibility, or a downsizer seeking space and exceptional amenities, this is an opportunity to enjoy a wonderfully connected lifestyle in one of Scarborough's most convenient locations. (id:31684)",
+  "features": [
+    "Cooktop",
+    "Washer",
+    "Refrigerator",
+    "Dishwasher",
+    "Dryer",
+    "Storage - Locker",
+    "Exercise Centre",
+    "Party Room",
+    "Security/concierge",
+    "Visitor Parking"
+  ],
+  "neighbourhood": {
+    "name": "Bendale-Glen Andrew",
+    "summary": "Bendale-Glen Andrew is reasonably quiet overall, as there isn't a lot of street noise or city clamour, although that is not the case near Highway 401. On the other hand, this area features a good amount of greenery as there are many tree-lined streets. There are approximately 40 public green spaces nearby for residents to relax in, including North Bendale Park and Thomson Memorial Park, and they are very well-distributed, making it very easy to get to them. Lastly, although this area is not known for its vibrancy, its busier streets are still quite lively, and finding one of the a few nightlife venues is very easy because they are generally located around the corner.",
+    "walk_score": null,
+    "transit_score": null,
+    "bike_score": null,
+    "demographics": {},
+    "nearby": {}
+  },
+  "stats": {
+    "area_name": null,
+    "median_sale_price": null,
+    "average_sale_price": null,
+    "average_days_on_market": null,
+    "sale_to_list_ratio": null,
+    "active_listings": null,
+    "period": null,
+    "raw": {
+      ">": "930 - 125 OMNI DRIVE, TORONTO (BENDALE), ON M1P 5A9",
+      "royal lepage signature realty": "Jill Fewster-yan",
+      "interested in this property?": "TOUR WITH A REMAX AGENT Yes, send me more info",
+      "930 - 125 omni dr": "$478,800",
+      "listing agent": "Jill Fewster-yan",
+      "updated": "Thursday, August 27, 2026 at 3:55:06 PM",
+      "ownership condo/strata": "Tax Annual Amount $2,428",
+      "$": "%",
+      "$2,174 monthly": "Estimated Payment",
+      "$2,174": "Monthly",
+      "bendale-glen andrew": "Bendale-Glen Andrew",
+      "buying": "Assessing Your Home-Buying Wants vs. Needs",
+      "financing": "10 Tips for Getting the Best Mortgage Rate in Canada"
+    }
+  },
+  "brokerage": "Royal Lepage Signature Realty, 4164430300",
+  "media_count": 45,
+  "warnings": []
+}
