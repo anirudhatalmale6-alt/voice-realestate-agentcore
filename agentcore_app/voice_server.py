@@ -48,11 +48,13 @@ log = logging.getLogger("voice")
 logging.basicConfig(level=os.getenv("LOG_LEVEL", "INFO"))
 
 
-# Nova 2 Sonic is not available in ca-central-1. See docs/architecture.md: the
-# store and the lead data stay in Canada, the model call does not.
+# us-west-2 by default: it is one of only three regions that run BOTH Nova 2
+# Sonic AND AgentCore Runtime Instances (the others are us-east-1 and
+# ap-northeast-1). Stockholm has Sonic but no Runtime Instances; Canada Central
+# has neither. Override with the environment variables below.
 MODEL_ID = os.getenv("MODEL_ID", "amazon.nova-2-sonic-v1:0")
-BEDROCK_REGION = os.getenv("BEDROCK_REGION", "us-east-1")
-DATA_REGION = os.getenv("DATA_REGION", "ca-central-1")
+BEDROCK_REGION = os.getenv("BEDROCK_REGION", "us-west-2")
+DATA_REGION = os.getenv("DATA_REGION", "us-west-2")
 TENANT_TABLE = os.getenv("TENANT_TABLE")        # unset means use the local JSON
 
 # A phone line is 8 kHz, but Sonic wants 16 kHz PCM mono, so the bridge

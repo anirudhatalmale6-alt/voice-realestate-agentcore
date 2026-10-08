@@ -138,8 +138,34 @@ inference profile to fall back on. **ca-central-1 is not on the list.** The
 older Nova Sonic v1 reached end of life on 14 September 2026, so Nova 2 Sonic
 is the only version there is.
 
-That leaves two honest options, and it is a data residency decision rather than
-a technical one:
+**Update, and it closes the question.** AgentCore Runtime *Instances*, which is
+the compute type the console asks for when you create a runtime, is also not
+available in Canada (Central). So there was never a Canadian option for the
+runtime either, only for the stored data. The region table is explicit: Canada
+Central has AgentCore harness, Memory, Gateway, Identity and Observability, but
+**not Runtime Instances**.
+
+Cross-referencing the two availability lists, exactly **three** regions run both
+Nova 2 Sonic and AgentCore Runtime Instances:
+
+| Region | Nova 2 Sonic | Runtime Instances |
+| --- | --- | --- |
+| us-east-1 | yes | yes |
+| **us-west-2** | **yes** | **yes** |
+| ap-northeast-1 (Tokyo) | yes | yes |
+| eu-north-1 (Stockholm) | yes | **no** |
+| ca-central-1 | **no** | **no** |
+
+Stockholm is the trap: it appears on the Sonic list, so it looks like a European
+option, and then the runtime cannot be created there.
+
+**The repo now defaults to us-west-2**, which is the region this project is
+being built in. `BEDROCK_REGION` and `DATA_REGION` are separate environment
+variables, so the office records and bookings can still be pinned to
+`ca-central-1` later without touching the runtime.
+
+What follows is the original reasoning, which still applies to where the
+*stored* data lives:
 
 **Option A, split.** Connect, DynamoDB and the lead records in `ca-central-1`;
 AgentCore Runtime and Sonic in `us-east-1`. Canadian phone numbers, Canadian

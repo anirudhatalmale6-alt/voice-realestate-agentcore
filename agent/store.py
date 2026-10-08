@@ -138,7 +138,7 @@ class DynamoDbStore:
                         "number#+14165551234" (in the GSI) -> routing
     """
 
-    def __init__(self, table_name: str, region_name: str = "ca-central-1",
+    def __init__(self, table_name: str, region_name: str = "us-west-2",
                  number_index: str = "number-index"):
         import boto3  # imported here so the local demo needs no AWS SDK config
         self.table = boto3.resource("dynamodb", region_name=region_name).Table(table_name)
