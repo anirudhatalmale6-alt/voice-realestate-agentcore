@@ -1,0 +1,32 @@
+# Python 3.12, not 3.13, and not by accident. Pipecat's audio helpers import
+# `audioop`, which PEP 594 removed in 3.13. Pipecat does declare the
+# `audioop-lts` backport for 3.13, so a normal pip install is fine, but pinning
+# 3.12 removes the question entirely and the AWS sample Dockerfiles that use
+# 3.13 are a trap if you ever vendor packages by hand.
+FROM --platform=linux/arm64 public.ecr.aws/docker/library/python:3.12-slim
+
+RUN apt-get update && apt-get install -y --no-install-recommends \
+      gcc python3-dev \
+    && apt-get clean && rm -rf /var/lib/apt/lists/*
+
+WORKDIR /app
+COPY agentcore_app/requirements-pipecat.txt .
+RUN pip install --no-cache-dir -r requirements-pipecat.txt
+
+COPY agent/ ./agent/
+COPY ingest/ ./ingest/
+COPY knowledge/ ./knowledge/
+COPY config/ ./config/
+COPY samples/listings/ ./samples/listings/
+COPY agentcore_app/ ./agentcore_app/
+
+RUN useradd -m -u 1000 appuser && chown -R appuser:appuser /app
+USER appuser
+
+ENV CONTAINER_ENV=true
+EXPOSE 8080
+
+HEALTHCHECK --interval=30s --timeout=3s --start-period=5s --retries=3 \
+  CMD ["python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:8080/ping').read()"]
+
+CMD ["uvicorn", "agentcore_app.pipecat_server:app", "--host", "0.0.0.0", "--port", "8080"]

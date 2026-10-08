@@ -113,6 +113,26 @@ and it is where every voice agent project gets stuck.
 There are three ways to build it. All three end at the same WebSocket, so the
 agent code in this repo does not change whichever you pick.
 
+## The reason Twilio is out, precisely
+
+Worth writing down because it is not obvious and it decides the provider.
+
+AgentCore Runtime will authenticate a WebSocket three ways: SigV4 headers, a
+SigV4 **pre-signed URL** with the signature in the query string, or OAuth.
+
+A telephony provider dialling a `wss://` URL cannot set headers. So the only
+option is the pre-signed URL. And **Twilio Media Streams strips query
+parameters off the WebSocket URL it dials.** The signature never arrives and
+AgentCore rejects the connection. Twilio's own guidance for passing data is to
+use the TwiML `<Parameter>` element instead, which does not help, because
+AgentCore needs the signature in the URL.
+
+Vonage passes the query string through. That is the whole reason.
+
+You can still use Twilio if you put your own small WebSocket server in between
+to re-sign, but that is an extra always-on hop to build, pay for and monitor,
+for no gain.
+
 ## Option 1, Vonage. There is an official working AWS sample
 
 AWS publishes `aws-samples/sample-vonage-serverless-sonic`, which is exactly
@@ -148,6 +168,35 @@ three week tail.
 The good news on Connect: **Canada needs no ID documents at all** for local or
 toll-free numbers. You claim them yourself in the console, same day. Most
 countries need a local address and an order form.
+
+## What I built: Pipecat on the Vonage path
+
+`agentcore_app/pipecat_server.py`. Pipecat ships a Vonage serializer and a Nova
+Sonic service, so the phone audio handling is library code rather than mine, and
+we still get speech to speech rather than dropping to Transcribe plus Polly.
+
+Four things in there that are worth knowing, all found by running it rather
+than by reading about it:
+
+1. **A Nova Sonic session is capped at about eight minutes.** A buyer asking
+   about schools, then parking, then the maintenance fee gets past that easily,
+   and without handling it the call dies mid-sentence. Pipecat's session
+   continuation opens the next session in the background before the ceiling,
+   buffers the caller's audio across the handover, and keeps the conversation
+   context. It is on, with the handover starting at six minutes.
+2. **The pip extra is `pipecat-ai[aws-nova-sonic]`, not `[aws]`.** `[aws]` gives
+   you Transcribe and Polly and silently leaves out Nova Sonic; you find out at
+   runtime with a missing `aws_sdk_bedrock_runtime`.
+3. **Pin Python 3.12, not 3.13.** Pipecat's audio helpers import `audioop`,
+   which was removed from the standard library in 3.13. Pipecat declares the
+   backport so a normal install is fine, but the AWS sample Dockerfiles use
+   3.13 and that is a trap if you ever vendor packages by hand.
+4. **`allow_interruptions` is gone in Pipecat 1.x** and passing it raises. Nova
+   Sonic does its own turn detection and barge-in inside the model.
+
+The tool definitions are not restated for Pipecat. `TOOL_SPECS` is converted at
+startup, so a tool description cannot drift between the demo, the plain
+WebSocket server and the phone. There is a test asserting that.
 
 ## What I would do
 

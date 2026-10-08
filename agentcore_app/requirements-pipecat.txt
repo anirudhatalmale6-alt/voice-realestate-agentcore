@@ -1,0 +1,8 @@
+# The Vonage telephony path. Note the extra is [aws-nova-sonic], not [aws]:
+# [aws] gives you Transcribe and Polly but NOT the Nova Sonic service, and the
+# import fails at runtime with a message about a missing aws_sdk_bedrock_runtime.
+pipecat-ai[aws-nova-sonic]>=1.12.0
+fastapi
+uvicorn[standard]
+beautifulsoup4>=4.12
+boto3>=1.34
